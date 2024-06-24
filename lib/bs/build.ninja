@@ -5,7 +5,7 @@ rule astj
   command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsc.exe -w -22 -bs-v 11.1.1 -bs-jsx 4 -bs-jsx-mode automatic -uncurried -open RescriptCore -absname -bs-ast -o $out $i
 o ./src/Css.ast : astj ../.././src/Css.res
 rule deps
-  command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsb_helper.exe -hash ee8422a918d7f2aab8774e8572b4516f -bs-ns Css $in
+  command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsb_helper.exe -hash faff983bb4d10cd78f6e8a4c28b18b05 -bs-ns Css $in
   restat = 1
 o ./src/Css.d : deps ./src/Css.ast
 rule mij
@@ -13,39 +13,39 @@ rule mij
   dyndep = 1
   restat = 1
 o ./src/Css-Css.cmj ./src/Css-Css.cmi ../.././src/Css.res.mjs : mij ./src/Css.ast
-o ./src/Flex__.ast : astj ../.././src/Flex__.res
-o ./src/Flex__.d : deps ./src/Flex__.ast
-o ./src/Flex__-Css.cmj ./src/Flex__-Css.cmi ../.././src/Flex__.res.mjs : mij ./src/Flex__.ast
-o ./src/Text__.ast : astj ../.././src/Text__.res
-o ./src/Text__.d : deps ./src/Text__.ast
-o ./src/Text__-Css.cmj ./src/Text__-Css.cmi ../.././src/Text__.res.mjs : mij ./src/Text__.ast
-o ./src/Border__.ast : astj ../.././src/Border__.res
-o ./src/Border__.d : deps ./src/Border__.ast
-o ./src/Border__-Css.cmj ./src/Border__-Css.cmi ../.././src/Border__.res.mjs : mij ./src/Border__.ast
-o ./src/Cursor__.ast : astj ../.././src/Cursor__.res
-o ./src/Cursor__.d : deps ./src/Cursor__.ast
-o ./src/Cursor__-Css.cmj ./src/Cursor__-Css.cmi ../.././src/Cursor__.res.mjs : mij ./src/Cursor__.ast
-o ./src/Length__.ast : astj ../.././src/Length__.res
-o ./src/Length__.d : deps ./src/Length__.ast
-o ./src/Length__-Css.cmj ./src/Length__-Css.cmi ../.././src/Length__.res.mjs : mij ./src/Length__.ast
-o ./src/Margin__.ast : astj ../.././src/Margin__.res
-o ./src/Margin__.d : deps ./src/Margin__.ast
-o ./src/Margin__-Css.cmj ./src/Margin__-Css.cmi ../.././src/Margin__.res.mjs : mij ./src/Margin__.ast
-o ./src/Display__.ast : astj ../.././src/Display__.res
-o ./src/Display__.d : deps ./src/Display__.ast
-o ./src/Display__-Css.cmj ./src/Display__-Css.cmi ../.././src/Display__.res.mjs : mij ./src/Display__.ast
-o ./src/Padding__.ast : astj ../.././src/Padding__.res
-o ./src/Padding__.d : deps ./src/Padding__.ast
-o ./src/Padding__-Css.cmj ./src/Padding__-Css.cmi ../.././src/Padding__.res.mjs : mij ./src/Padding__.ast
-o ./src/BoxShadow__.ast : astj ../.././src/BoxShadow__.res
-o ./src/BoxShadow__.d : deps ./src/BoxShadow__.ast
-o ./src/BoxShadow__-Css.cmj ./src/BoxShadow__-Css.cmi ../.././src/BoxShadow__.res.mjs : mij ./src/BoxShadow__.ast
-o ./src/Background__.ast : astj ../.././src/Background__.res
-o ./src/Background__.d : deps ./src/Background__.ast
-o ./src/Background__-Css.cmj ./src/Background__-Css.cmi ../.././src/Background__.res.mjs : mij ./src/Background__.ast
-o ./src/BorderRadius__.ast : astj ../.././src/BorderRadius__.res
-o ./src/BorderRadius__.d : deps ./src/BorderRadius__.ast
-o ./src/BorderRadius__-Css.cmj ./src/BorderRadius__-Css.cmi ../.././src/BorderRadius__.res.mjs : mij ./src/BorderRadius__.ast
+o ./src/Flex.ast : astj ../.././src/Flex.res
+o ./src/Flex.d : deps ./src/Flex.ast
+o ./src/Flex-Css.cmj ./src/Flex-Css.cmi ../.././src/Flex.res.mjs : mij ./src/Flex.ast
+o ./src/Text.ast : astj ../.././src/Text.res
+o ./src/Text.d : deps ./src/Text.ast
+o ./src/Text-Css.cmj ./src/Text-Css.cmi ../.././src/Text.res.mjs : mij ./src/Text.ast
+o ./src/Border.ast : astj ../.././src/Border.res
+o ./src/Border.d : deps ./src/Border.ast
+o ./src/Border-Css.cmj ./src/Border-Css.cmi ../.././src/Border.res.mjs : mij ./src/Border.ast
+o ./src/Cursor.ast : astj ../.././src/Cursor.res
+o ./src/Cursor.d : deps ./src/Cursor.ast
+o ./src/Cursor-Css.cmj ./src/Cursor-Css.cmi ../.././src/Cursor.res.mjs : mij ./src/Cursor.ast
+o ./src/Length.ast : astj ../.././src/Length.res
+o ./src/Length.d : deps ./src/Length.ast
+o ./src/Length-Css.cmj ./src/Length-Css.cmi ../.././src/Length.res.mjs : mij ./src/Length.ast
+o ./src/Margin.ast : astj ../.././src/Margin.res
+o ./src/Margin.d : deps ./src/Margin.ast
+o ./src/Margin-Css.cmj ./src/Margin-Css.cmi ../.././src/Margin.res.mjs : mij ./src/Margin.ast
+o ./src/Display.ast : astj ../.././src/Display.res
+o ./src/Display.d : deps ./src/Display.ast
+o ./src/Display-Css.cmj ./src/Display-Css.cmi ../.././src/Display.res.mjs : mij ./src/Display.ast
+o ./src/Padding.ast : astj ../.././src/Padding.res
+o ./src/Padding.d : deps ./src/Padding.ast
+o ./src/Padding-Css.cmj ./src/Padding-Css.cmi ../.././src/Padding.res.mjs : mij ./src/Padding.ast
+o ./src/BoxShadow.ast : astj ../.././src/BoxShadow.res
+o ./src/BoxShadow.d : deps ./src/BoxShadow.ast
+o ./src/BoxShadow-Css.cmj ./src/BoxShadow-Css.cmi ../.././src/BoxShadow.res.mjs : mij ./src/BoxShadow.ast
+o ./src/Background.ast : astj ../.././src/Background.res
+o ./src/Background.d : deps ./src/Background.ast
+o ./src/Background-Css.cmj ./src/Background-Css.cmi ../.././src/Background.res.mjs : mij ./src/Background.ast
+o ./src/BorderRadius.ast : astj ../.././src/BorderRadius.res
+o ./src/BorderRadius.d : deps ./src/BorderRadius.ast
+o ./src/BorderRadius-Css.cmj ./src/BorderRadius-Css.cmi ../.././src/BorderRadius.res.mjs : mij ./src/BorderRadius.ast
 rule build_package
   command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsc.exe -w -49 -color always -no-alias-deps  $i
   restat = 1

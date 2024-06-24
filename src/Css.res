@@ -1,15 +1,3 @@
-module Background = Background__
-module Border = Border__
-module BorderRadius = BorderRadius__
-module BoxShadow = BoxShadow__
-module Cursor = Cursor__
-module Display = Display__
-module Flex = Flex__
-module Length = Length__
-module Margin = Margin__
-module Padding = Padding__
-module Text = Text__
-
 let empty: JsxDOMStyle.t = {}
 
 let merge = (styles: array<JsxDOMStyle.t>) => {

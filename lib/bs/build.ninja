@@ -3,16 +3,16 @@ g_finger := /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modul
 g_finger := /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/@rescript/react/lib/ocaml/install.stamp
 rule astj
   command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsc.exe -w -22 -bs-v 11.1.1 -bs-jsx 4 -bs-jsx-mode automatic -uncurried -open RescriptCore -absname -bs-ast -o $out $i
-o ./src/CSS.ast : astj ../.././src/CSS.res
+o ./src/Css.ast : astj ../.././src/Css.res
 rule deps
-  command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsb_helper.exe -hash 80341104b3f0ede884ee439afda21566 -bs-ns Css $in
+  command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsb_helper.exe -hash ee8422a918d7f2aab8774e8572b4516f -bs-ns Css $in
   restat = 1
-o ./src/CSS.d : deps ./src/CSS.ast
+o ./src/Css.d : deps ./src/Css.ast
 rule mij
   command = /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/.pnpm/registry.npmjs.org+rescript@11.1.1/node_modules/rescript/darwinarm64/bsc.exe -bs-ns Css -I . -I ./src -I /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/@rescript/core/lib/ocaml -I /Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/@rescript/react/lib/ocaml -open RescriptCore -w -22 -uncurried -bs-package-name @zooshme/rescript-css -bs-package-output esmodule:$in_d:.res.mjs -bs-v $g_finger $i
   dyndep = 1
   restat = 1
-o ./src/CSS-Css.cmj ./src/CSS-Css.cmi ../.././src/CSS.res.mjs : mij ./src/CSS.ast
+o ./src/Css-Css.cmj ./src/Css-Css.cmi ../.././src/Css.res.mjs : mij ./src/Css.ast
 o ./src/Flex__.ast : astj ../.././src/Flex__.res
 o ./src/Flex__.d : deps ./src/Flex__.ast
 o ./src/Flex__-Css.cmj ./src/Flex__-Css.cmi ../.././src/Flex__.res.mjs : mij ./src/Flex__.ast

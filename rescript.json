@@ -1,0 +1,32 @@
+{
+  "name": "@zooshme/rescript-css",
+  "namespace": "css",
+  "sources": [
+    {
+      "dir": "./src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
+  "suffix": ".res.mjs",
+  "bs-dependencies": [
+    "@rescript/core",
+    "@rescript/react"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ],
+  "warnings": {
+    "number": "-22"
+  }
+}
+

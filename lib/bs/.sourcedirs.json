@@ -1,0 +1,1 @@
+{ "dirs" : [ "./src" ] , "pkgs" : [ [ "@rescript/core" , "/Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/@rescript/core" ] , [ "@rescript/react" , "/Users/ovimacstudio/apps/zooshme/npm-modules/rescript-css/node_modules/@rescript/react" ] ] , "generated" : [] }

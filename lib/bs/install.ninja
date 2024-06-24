@@ -1,0 +1,57 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o CSS-Css.cmi : cp ../bs/./src/CSS-Css.cmi
+o CSS-Css.cmj : cp ../bs/./src/CSS-Css.cmj
+o CSS-Css.cmt : cp ../bs/./src/CSS-Css.cmt
+o CSS.res : cp ../.././src/CSS.res
+o Flex__-Css.cmi : cp ../bs/./src/Flex__-Css.cmi
+o Flex__-Css.cmj : cp ../bs/./src/Flex__-Css.cmj
+o Flex__-Css.cmt : cp ../bs/./src/Flex__-Css.cmt
+o Flex__.res : cp ../.././src/Flex__.res
+o Text__-Css.cmi : cp ../bs/./src/Text__-Css.cmi
+o Text__-Css.cmj : cp ../bs/./src/Text__-Css.cmj
+o Text__-Css.cmt : cp ../bs/./src/Text__-Css.cmt
+o Text__.res : cp ../.././src/Text__.res
+o Border__-Css.cmi : cp ../bs/./src/Border__-Css.cmi
+o Border__-Css.cmj : cp ../bs/./src/Border__-Css.cmj
+o Border__-Css.cmt : cp ../bs/./src/Border__-Css.cmt
+o Border__.res : cp ../.././src/Border__.res
+o Cursor__-Css.cmi : cp ../bs/./src/Cursor__-Css.cmi
+o Cursor__-Css.cmj : cp ../bs/./src/Cursor__-Css.cmj
+o Cursor__-Css.cmt : cp ../bs/./src/Cursor__-Css.cmt
+o Cursor__.res : cp ../.././src/Cursor__.res
+o Length__-Css.cmi : cp ../bs/./src/Length__-Css.cmi
+o Length__-Css.cmj : cp ../bs/./src/Length__-Css.cmj
+o Length__-Css.cmt : cp ../bs/./src/Length__-Css.cmt
+o Length__.res : cp ../.././src/Length__.res
+o Margin__-Css.cmi : cp ../bs/./src/Margin__-Css.cmi
+o Margin__-Css.cmj : cp ../bs/./src/Margin__-Css.cmj
+o Margin__-Css.cmt : cp ../bs/./src/Margin__-Css.cmt
+o Margin__.res : cp ../.././src/Margin__.res
+o Display__-Css.cmi : cp ../bs/./src/Display__-Css.cmi
+o Display__-Css.cmj : cp ../bs/./src/Display__-Css.cmj
+o Display__-Css.cmt : cp ../bs/./src/Display__-Css.cmt
+o Display__.res : cp ../.././src/Display__.res
+o Padding__-Css.cmi : cp ../bs/./src/Padding__-Css.cmi
+o Padding__-Css.cmj : cp ../bs/./src/Padding__-Css.cmj
+o Padding__-Css.cmt : cp ../bs/./src/Padding__-Css.cmt
+o Padding__.res : cp ../.././src/Padding__.res
+o BoxShadow__-Css.cmi : cp ../bs/./src/BoxShadow__-Css.cmi
+o BoxShadow__-Css.cmj : cp ../bs/./src/BoxShadow__-Css.cmj
+o BoxShadow__-Css.cmt : cp ../bs/./src/BoxShadow__-Css.cmt
+o BoxShadow__.res : cp ../.././src/BoxShadow__.res
+o Background__-Css.cmi : cp ../bs/./src/Background__-Css.cmi
+o Background__-Css.cmj : cp ../bs/./src/Background__-Css.cmj
+o Background__-Css.cmt : cp ../bs/./src/Background__-Css.cmt
+o Background__.res : cp ../.././src/Background__.res
+o BorderRadius__-Css.cmi : cp ../bs/./src/BorderRadius__-Css.cmi
+o BorderRadius__-Css.cmj : cp ../bs/./src/BorderRadius__-Css.cmj
+o BorderRadius__-Css.cmt : cp ../bs/./src/BorderRadius__-Css.cmt
+o BorderRadius__.res : cp ../.././src/BorderRadius__.res
+o Css.cmi : cp ../bs/Css.cmi
+o Css.cmj : cp ../bs/Css.cmj
+o Css.cmt : cp ../bs/Css.cmt
+build install.stamp : touch CSS-Css.cmi CSS-Css.cmj Flex__-Css.cmi Flex__-Css.cmj Text__-Css.cmi Text__-Css.cmj Border__-Css.cmi Border__-Css.cmj Cursor__-Css.cmi Cursor__-Css.cmj Length__-Css.cmi Length__-Css.cmj Margin__-Css.cmi Margin__-Css.cmj Display__-Css.cmi Display__-Css.cmj Padding__-Css.cmi Padding__-Css.cmj BoxShadow__-Css.cmi BoxShadow__-Css.cmj Background__-Css.cmi Background__-Css.cmj BorderRadius__-Css.cmi BorderRadius__-Css.cmj Css.cmi Css.cmj

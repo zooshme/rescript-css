@@ -1,0 +1,4 @@
+always use Rescript if the context is a .res file
+always use information and syntax relevant for Rescript 11 and later versions
+always use functional React
+in Rescript always use == instead of === unless I manually want to use ===
